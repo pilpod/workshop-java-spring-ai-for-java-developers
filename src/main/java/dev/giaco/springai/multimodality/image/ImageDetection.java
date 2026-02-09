@@ -1,4 +1,4 @@
-package dev.giaco.springai.multimodality;
+package dev.giaco.springai.multimodality.image;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.beans.factory.annotation.Value;

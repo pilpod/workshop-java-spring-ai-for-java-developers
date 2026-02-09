@@ -1,4 +1,4 @@
-package dev.giaco.springai.multimodality;
+package dev.giaco.springai.multimodality.image;
 
 import java.util.Map;
 
