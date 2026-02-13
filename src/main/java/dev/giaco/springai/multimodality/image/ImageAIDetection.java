@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @RestController
-public class ImageDetection {
+public class ImageAIDetection {
 
     private final ChatClient chatClient;
 
     @Value("classpath:images/kittens-unsplash-resized.jpg")
     private Resource imageResource;
 
-    public ImageDetection(ChatClient.Builder builder) {
+    public ImageAIDetection(ChatClient.Builder builder) {
         this.chatClient = builder.build();
     }
 
